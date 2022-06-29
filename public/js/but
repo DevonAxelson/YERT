@@ -1,0 +1,636 @@
+//This is where HTML elements are defined for our code.
+const prh1_but = document.getElementById('prh1');
+const starth1_but = document.getElementById('starth1');
+const stoph1_but = document.getElementById('stoph1');
+const prh2_but = document.getElementById('prh2');
+const starth2_but = document.getElementById('starth2');
+const stoph2_but = document.getElementById('stoph2');
+const prh3_but = document.getElementById('prh3');
+const starth3_but = document.getElementById('starth3');
+const stoph3_but = document.getElementById('stoph3');
+const prc1_but = document.getElementById('prc1');
+const startc1_but = document.getElementById('startc1');
+const stopc1_but = document.getElementById('stopc1');
+const prc2_but = document.getElementById('prc2');
+const startc2_but = document.getElementById('startc2');
+const stopc2_but = document.getElementById('stopc2');
+const prc3_but = document.getElementById('prc3');
+const startc3_but = document.getElementById('startc3');
+const stopc3_but = document.getElementById('stopc3');
+const prg1_but = document.getElementById('prg1');
+const startg1_but = document.getElementById('startg1');
+const stopg1_but = document.getElementById('stopg1');
+const prg2_but = document.getElementById('prg2');
+const startg2_but = document.getElementById('startg2');
+const stopg2_but = document.getElementById('stopg2');
+const prg3_but = document.getElementById('prg3');
+const startg3_but = document.getElementById('startg3');
+const stopg3_but = document.getElementById('stopg3');
+const prn1_but = document.getElementById('prn1');
+const startn1_but = document.getElementById('startn1');
+const stopn1_but = document.getElementById('stopn1');
+const prn2_but = document.getElementById('prn2');
+const startn2_but = document.getElementById('startn2');
+const stopn2_but = document.getElementById('stopn2');
+const prn3_but = document.getElementById('prn3');
+const startn3_but = document.getElementById('startn3');
+const stopn3_but = document.getElementById('stopn3');
+const pro1_but = document.getElementById('pro1');
+const starto1_but = document.getElementById('starto1');
+const stopo1_but = document.getElementById('stopo1');
+const pro2_but = document.getElementById('pro2');
+const starto2_but = document.getElementById('starto2');
+const stopo2_but = document.getElementById('stopo2');
+const pro3_but = document.getElementById('pro3');
+const starto3_but = document.getElementById('starto3');
+const stopo3_but = document.getElementById('stopo3');
+const prp1_but = document.getElementById('prp1');
+const startp1_but = document.getElementById('startp1');
+const stopp1_but = document.getElementById('stopp1');
+const prp2_but = document.getElementById('prp2');
+const startp2_but = document.getElementById('startp2');
+const stopp2_but = document.getElementById('stopp2');
+const prp3_but = document.getElementById('prp3');
+const startp3_but = document.getElementById('startp3');
+const stopp3_but = document.getElementById('stopp3');
+const tith1 = document.getElementById('rmh1');
+const tith2 = document.getElementById('rmh2');
+const tith3 = document.getElementById('rmh3');
+const titc1 = document.getElementById('rmc1');
+const titc2 = document.getElementById('rmc2');
+const titc3 = document.getElementById('rmc3');
+const titg1 = document.getElementById('rmg1');
+const titg2 = document.getElementById('rmg2');
+const titg3 = document.getElementById('rmg3');
+const titn1 = document.getElementById('rmn1');
+const titn2 = document.getElementById('rmn2');
+const titn3 = document.getElementById('rmn3');
+const tito1 = document.getElementById('rmo1');
+const tito2 = document.getElementById('rmo2');
+const tito3 = document.getElementById('rmo3');
+const titp1 = document.getElementById('rmp1');
+const titp2 = document.getElementById('rmp2');
+const titp3 = document.getElementById('rmp3');
+var socket = io();
+
+
+
+function prh1() {
+socket.emit('prh1');
+}
+function starth1() {
+socket.emit('starth1');
+}
+function stoph1(){
+socket.emit('stoph1');
+}
+function prh2(){
+socket.emit('prh2');
+}
+function starth2(){
+socket.emit('starth2');
+}
+function stoph2(){
+socket.emit('stoph2');
+}
+function prh3(){
+socket.emit('prh3');
+}
+function starth3(){
+socket.emit('starth3');
+}
+function stoph3(){
+socket.emit('stoph3');
+}
+function prc1() {
+socket.emit('prc1');
+}
+function startc1() {
+socket.emit('startc1');
+}
+function stopc1(){
+socket.emit('stopc1');
+}
+function prc2(){
+socket.emit('prc2');
+}
+function startc2(){
+socket.emit('startc2');
+}
+function stopc2(){
+socket.emit('stopc2');
+}
+function prc3(){
+socket.emit('prc3');
+}
+function startc3(){
+socket.emit('startc3');
+}
+function stopc3(){
+socket.emit('stopc3');
+}
+function prg1() {
+socket.emit('prg1');
+}
+function startg1() {
+socket.emit('startg1');
+}
+function stopg1(){
+socket.emit('stopg1');
+}
+function prg2(){
+socket.emit('prg2');
+}
+function startg2(){
+socket.emit('startg2');
+}
+function stopg2(){
+socket.emit('stopg2');
+}
+function prg3(){
+socket.emit('prg3');
+}
+function startg3(){
+socket.emit('startg3');
+}
+function stopg3(){
+socket.emit('stopg3');
+}
+function prn1() {
+socket.emit('prn1');
+}
+function startn1() {
+socket.emit('startn1');
+}
+function stopn1(){
+socket.emit('stopn1');
+}
+function prn2(){
+socket.emit('prn2');
+}
+function startn2(){
+socket.emit('startn2');
+}
+function stopn2(){
+socket.emit('stopn2');
+}
+function prn3(){
+socket.emit('prn3');
+}
+function startn3(){
+socket.emit('startn3');
+}
+function stopn3(){
+socket.emit('stopn3');
+}
+function pro1() {
+socket.emit('pro1');
+}
+function starto1() {
+socket.emit('starto1');
+}
+function stopo1(){
+socket.emit('stopo1');
+}
+function pro2(){
+socket.emit('pro2');
+}
+function starto2(){
+socket.emit('starto2');
+}
+function stopo2(){
+socket.emit('stopo2');
+}
+function pro3(){
+socket.emit('pro3');
+}
+function starto3(){
+socket.emit('starto3');
+}
+function stopo3(){
+socket.emit('stopo3');
+}
+function prp1() {
+socket.emit('prp1');
+}
+function startp1() {
+socket.emit('startp1');
+}
+function stopp1(){
+socket.emit('stopp1');
+}
+function prp2(){
+socket.emit('prp2');
+}
+function startp2(){
+socket.emit('startp2');
+}
+function stopp2(){
+socket.emit('stopp2');
+}
+function prp3(){
+socket.emit('prp3');
+}
+function startp3(){
+socket.emit('startp3');
+}
+function stopp3(){
+socket.emit('stopp3');
+}
+
+
+
+
+
+
+//Hays Room 206 button block 1/3
+socket.on('h1 1/3',  function(){
+yesBtn([starth1_but]);
+noBtn([prh1_but, stoph1_but]);
+tith1.innerHTML = 'Patient waiting in Room 206';
+tith1.classList.toggle("h4");
+});
+//Hays Room 206 button block 2/3
+socket.on('h1 2/3', function(){
+yesBtn([stoph1_but]);
+noBtn([starth1_but,prh1_but]);
+tith1.innerHTML = 'Room 206 is currently in session';
+tith1.classList.remove("h4");
+});
+//Hays Room 206 button block 3/3
+socket.on('h1 3/3', function(){
+yesBtn([prh1_but]);
+noBtn([stoph1_but,starth1_but]);
+tith1.innerHTML = 'Room 206 is no longer in session';
+tith1.classList.toggle("h4");
+});
+//Hays Room 219 button block 1/3
+socket.on('h2 1/3',  function(){
+yesBtn([starth2_but]);
+noBtn([prh2_but, stoph2_but]);
+tith2.innerHTML = 'Patient waiting in Room 219';
+tith2.classList.toggle("h4");
+});
+//Hays Room 219 button block 2/3
+socket.on('h2 2/3', function(){
+yesBtn([stoph2_but]);
+noBtn([starth2_but,prh2_but]);
+tith2.innerHTML = 'Room 219 is currently in session';
+tith2.classList.remove("h4");
+});
+//Hays Room 219 button block 3/3
+socket.on('h2 3/3', function(){
+yesBtn([prh2_but]);
+noBtn([stoph2_but,starth2_but]);
+tith2.innerHTML = 'Room 219 is no longer in session';
+tith2.classList.toggle("h4");
+});
+
+//Hays Room 220 button block 1/3
+socket.on('h3 1/3',  function(){
+yesBtn([starth3_but]);
+noBtn([prh3_but, stoph3_but]);
+tith3.innerHTML = 'Patient waiting in Room 220';
+tith3.classList.toggle("h4");
+});
+//Hays Room 220 button block 2/3
+socket.on('h3 2/3', function(){
+yesBtn([stoph3_but]);
+noBtn([starth3_but,prh3_but]);
+tith3.innerHTML = 'Room 220 is currently in session';
+tith3.classList.remove("h4");
+});
+//Hays Room 220 button block 3/3
+socket.on('h3 3/3', function(){
+yesBtn([prh3_but]);
+noBtn([stoph3_but,starth3_but]);
+tith3.innerHTML = 'Room 220 is no longer in session';
+tith3.classList.toggle("h4");
+});
+
+
+//Colby Room 1 button block 1/3
+socket.on('c1 1/3',  function(){
+yesBtn([startc1_but]);
+noBtn([prc1_but, stopc1_but]);
+titc1.innerHTML = 'Patient waiting in Room 1';
+titc1.classList.toggle("h4");
+});
+//Colby Room 1 button block 2/3
+socket.on('c1 2/3', function(){
+yesBtn([stopc1_but]);
+noBtn([startc1_but,prc1_but]);
+titc1.innerHTML = 'Room 1 is currently in session';
+titc1.classList.remove("h4");
+});
+//Colby Room 1 button block 3/3
+socket.on('c1 3/3', function(){
+yesBtn([prc1_but]);
+noBtn([stopc1_but,startc1_but]);
+titc1.innerHTML = 'Room 1 is no longer in session';
+titc1.classList.toggle("h4");
+});
+//Colby Room 2 button block 1/3
+socket.on('c2 1/3',  function(){
+yesBtn([startc2_but]);
+noBtn([prc2_but, stopc2_but]);
+titc2.innerHTML = 'Patient waiting in Room 2';
+titc2.classList.toggle("h4");
+});
+//Colby Room 2 button block 2/3
+socket.on('c2 2/3', function(){
+yesBtn([stopc2_but]);
+noBtn([startc2_but,prc2_but]);
+titc2.innerHTML = 'Room 2 is currently in session';
+titc2.classList.remove("h4");
+});
+//Colby Room 2 button block 3/3
+socket.on('c2 3/3', function(){
+yesBtn([prc2_but]);
+noBtn([stopc2_but,startc2_but]);
+titc2.innerHTML = 'Room 2 is no longer in session';
+titc2.classList.toggle("h4");
+});
+
+//Colby Room 2 button block 1/3
+socket.on('c3 1/3',  function(){
+yesBtn([startc3_but]);
+noBtn([prc3_but, stopc3_but]);
+titc3.innerHTML = 'Patient waiting in Room 2';
+titc3.classList.toggle("h4");
+});
+//Colby Room 2 button block 2/3
+socket.on('c3 2/3', function(){
+yesBtn([stopc3_but]);
+noBtn([startc3_but,prc3_but]);
+titc3.innerHTML = 'Room 2 is currently in session';
+titc3.classList.remove("h4");
+});
+//Colby Room 2 button block 3/3
+socket.on('c3 3/3', function(){
+yesBtn([prc3_but]);
+noBtn([stopc3_but,startc3_but]);
+titc3.innerHTML = 'Room 2 is no longer in session';
+titc3.classList.toggle("h4");
+});
+
+
+//Goodland Room 1 button block 1/3
+socket.on('g1 1/3',  function(){
+yesBtn([startg1_but]);
+noBtn([prg1_but, stopg1_but]);
+titg1.innerHTML = 'Patient waiting in Room 1';
+titg1.classList.toggle("h4");
+});
+//Goodland Room 1 button block 2/3
+socket.on('g1 2/3', function(){
+yesBtn([stopg1_but]);
+noBtn([startg1_but,prg1_but]);
+titg1.innerHTML = 'Room 1 is currently in session';
+titg1.classList.remove("h4");
+});
+//Goodland Room 1 button block 3/3
+socket.on('g1 3/3', function(){
+yesBtn([prg1_but]);
+noBtn([stopg1_but,startg1_but]);
+titg1.innerHTML = 'Room 1 is no longer in session';
+titg1.classList.toggle("h4");
+});
+//Goodland Room 2 button block 1/3
+socket.on('g2 1/3',  function(){
+yesBtn([startg2_but]);
+noBtn([prg2_but, stopg2_but]);
+titg2.innerHTML = 'Patient waiting in Room 2';
+titg2.classList.toggle("h4");
+});
+//Goodland Room 2 button block 2/3
+socket.on('g2 2/3', function(){
+yesBtn([stopg2_but]);
+noBtn([startg2_but,prg2_but]);
+titg2.innerHTML = 'Room 2 is currently in session';
+titg2.classList.remove("h4");
+});
+//Goodland Room 2 button block 3/3
+socket.on('g2 3/3', function(){
+yesBtn([prg2_but]);
+noBtn([stopg2_but,startg2_but]);
+titg2.innerHTML = 'Room 2 is no longer in session';
+titg2.classList.toggle("h4");
+});
+
+//Goodland Room 3 button block 1/3
+socket.on('g3 1/3',  function(){
+yesBtn([startg3_but]);
+noBtn([prg3_but, stopg3_but]);
+titg3.innerHTML = 'Patient waiting in Room 3';
+titg3.classList.toggle("h4");
+});
+//Goodland Room 3 button block 2/3
+socket.on('g3 2/3', function(){
+yesBtn([stopg3_but]);
+noBtn([startg3_but,prg3_but]);
+titg3.innerHTML = 'Room 3 is currently in session';
+titg3.classList.remove("h4");
+});
+//Goodland Room 3 button block 3/3
+socket.on('g3 3/3', function(){
+yesBtn([prg3_but]);
+noBtn([stopg3_but,startg3_but]);
+titg3.innerHTML = 'Room 3 is no longer in session';
+titg3.classList.toggle("h4");
+});
+
+//Norton Room 1 button block 1/3
+socket.on('n1 1/3',  function(){
+yesBtn([startn1_but]);
+noBtn([prn1_but, stopn1_but]);
+titn1.innerHTML = 'Patient waiting in Room 1';
+titn1.classList.toggle("h4");
+});
+//Norton Room 1 button block 2/3
+socket.on('n1 2/3', function(){
+yesBtn([stopn1_but]);
+noBtn([startn1_but,prn1_but]);
+titn1.innerHTML = 'Room 1 is currently in session';
+titn1.classList.remove("h4");
+});
+//Norton Room 1 button block 3/3
+socket.on('n1 3/3', function(){
+yesBtn([prn1_but]);
+noBtn([stopn1_but,startn1_but]);
+titn1.innerHTML = 'Room 1 is no longer in session';
+titn1.classList.toggle("h4");
+});
+//Norton Room 2 button block 1/3
+socket.on('n2 1/3',  function(){
+yesBtn([startn2_but]);
+noBtn([prn2_but, stopn2_but]);
+titn2.innerHTML = 'Patient waiting in Room 2';
+titn2.classList.toggle("h4");
+});
+//Norton Room 2 button block 2/3
+socket.on('n2 2/3', function(){
+yesBtn([stopn2_but]);
+noBtn([startn2_but,prn2_but]);
+titn2.innerHTML = 'Room 2 is currently in session';
+titn2.classList.remove("h4");
+});
+//Norton Room 2 button block 3/3
+socket.on('n2 3/3', function(){
+yesBtn([prn2_but]);
+noBtn([stopn2_but,startn2_but]);
+titn2.innerHTML = 'Room 2 is no longer in session';
+titn2.classList.toggle("h4");
+});
+
+//Norton Room 3 button block 1/3
+socket.on('n3 1/3',  function(){
+yesBtn([startn3_but]);
+noBtn([prn3_but, stopn3_but]);
+titn3.innerHTML = 'Patient waiting in Room 3';
+titn3.classList.toggle("h4");
+});
+//Norton Room 3 button block 2/3
+socket.on('n3 2/3', function(){
+yesBtn([stopn3_but]);
+noBtn([startn3_but,prn3_but]);
+titn3.innerHTML = 'Room 3 is currently in session';
+titn3.classList.remove("h4");
+});
+//Norton Room 3 button block 3/3
+socket.on('n3 3/3', function(){
+yesBtn([prn3_but]);
+noBtn([stopn3_but,startn3_but]);
+titn3.innerHTML = 'Room 3 is no longer in session';
+titn3.classList.toggle("h4");
+});
+
+//Osborne Room 1 button block 1/3
+socket.on('o1 1/3',  function(){
+yesBtn([starto1_but]);
+noBtn([pro1_but, stopo1_but]);
+tito1.innerHTML = 'Patient waiting in Room 1';
+tito1.classList.toggle("h4");
+});
+//Osborne Room 1 button block 2/3
+socket.on('o1 2/3', function(){
+yesBtn([stopo1_but]);
+noBtn([starto1_but,pro1_but]);
+tito1.innerHTML = 'Room 1 is currently in session';
+tito1.classList.remove("h4");
+});
+//Osborne Room 1 button block 3/3
+socket.on('o1 3/3', function(){
+yesBtn([pro1_but]);
+noBtn([stopo1_but,starto1_but]);
+tito1.innerHTML = 'Room 1 is no longer in session';
+tito1.classList.toggle("h4");
+});
+//Osborne Room 2 button block 1/3
+socket.on('o2 1/3',  function(){
+yesBtn([starto2_but]);
+noBtn([pro2_but, stopo2_but]);
+tito2.innerHTML = 'Patient waiting in Room 2';
+tito2.classList.toggle("h4");
+});
+//Osborne Room 2 button block 2/3
+socket.on('o2 2/3', function(){
+yesBtn([stopo2_but]);
+noBtn([starto2_but,pro2_but]);
+tito2.innerHTML = 'Room 2 is currently in session';
+tito2.classList.remove("h4");
+});
+//Osborne Room 2 button block 3/3
+socket.on('o2 3/3', function(){
+yesBtn([pro2_but]);
+noBtn([stopo2_but,starto2_but]);
+tito2.innerHTML = 'Room 2 is no longer in session';
+tito2.classList.toggle("h4");
+});
+
+//Osborne Room 3 button block 1/3
+socket.on('o3 1/3',  function(){
+yesBtn([starto3_but]);
+noBtn([pro3_but, stopo3_but]);
+tito3.innerHTML = 'Patient waiting in Room 3';
+tito3.classList.toggle("h4");
+});
+//Osborne Room 3 button block 2/3
+socket.on('o3 2/3', function(){
+yesBtn([stopo3_but]);
+noBtn([starto3_but,pro3_but]);
+tito3.innerHTML = 'Room 3 is currently in session';
+tito3.classList.remove("h4");
+});
+//Osborne Room 3 button block 3/3
+socket.on('o3 3/3', function(){
+yesBtn([pro3_but]);
+noBtn([stopo3_but,starto3_but]);
+tito3.innerHTML = 'Room 3 is no longer in session';
+tito3.classList.toggle("h4");
+});
+
+//Phillipsburg Room 1 button block 1/3
+socket.on('p1 1/3',  function(){
+yesBtn([startp1_but]);
+noBtn([prp1_but, stopp1_but]);
+titp1.innerHTML = 'Patient waiting in Room 1';
+titp1.classList.toggle("h4");
+});
+//Phillipsburg Room 1 button block 2/3
+socket.on('p1 2/3', function(){
+yesBtn([stopp1_but]);
+noBtn([startp1_but,prp1_but]);
+titp1.innerHTML = 'Room 1 is currently in session';
+titp1.classList.remove("h4");
+});
+//Phillipsburg Room 1 button block 3/3
+socket.on('p1 3/3', function(){
+yesBtn([prp1_but]);
+noBtn([stopp1_but,startp1_but]);
+titp1.innerHTML = 'Room 1 is no longer in session';
+titp1.classList.toggle("h4");
+});
+//Phillipsburg Room 2 button block 1/3
+socket.on('p2 1/3',  function(){
+yesBtn([startp2_but]);
+noBtn([prp2_but, stopp2_but]);
+titp2.innerHTML = 'Patient waiting in Room 2';
+titp2.classList.toggle("h4");
+});
+//Phillipsburg Room 2 button block 2/3
+socket.on('p2 2/3', function(){
+yesBtn([stopp2_but]);
+noBtn([startp2_but,prp2_but]);
+titp2.innerHTML = 'Room 2 is currently in session';
+titp2.classList.remove("h4");
+});
+//Phillipsburg Room 2 button block 3/3
+socket.on('p2 3/3', function(){
+yesBtn([prp2_but]);
+noBtn([stopp2_but,startp2_but]);
+titp2.innerHTML = 'Room 2 is no longer in session';
+titp2.classList.toggle("h4");
+});
+
+//Phillipsburg Room 3 button block 1/3
+socket.on('p3 1/3',  function(){
+yesBtn([startp3_but]);
+noBtn([prp3_but, stopp3_but]);
+titp3.innerHTML = 'Patient waiting in Room 3';
+titp3.classList.toggle("h4");
+});
+//Phillipsburg Room 3 button block 2/3
+socket.on('p3 2/3', function(){
+yesBtn([stopp3_but]);
+noBtn([startp3_but,prp3_but]);
+titp3.innerHTML = 'Room 3 is currently in session';
+titp3.classList.remove("h4");
+});
+//Phillipsburg Room 3 button block 3/3
+socket.on('p3 3/3', function(){
+yesBtn([prp3_but]);
+noBtn([stopp3_but,startp3_but]);
+titp3.innerHTML = 'Room 3 is no longer in session';
+titp3.classList.toggle("h4");
+});

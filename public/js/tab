@@ -1,0 +1,125 @@
+function yesBtn(btnArr) {
+  btnArr.forEach((btn) => (btn.style.display = 'inline-block'));
+    }
+  function noBtn(btnArr) {
+  btnArr.forEach((btn) => (btn.style.display = 'none'));
+    }
+  
+
+function openbranchL(evt, branchName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(branchName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  document.getElementById("home").click();
+  
+
+
+
+function openbranchH(evt, branchName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(branchName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  noBtn([starth1_but, stoph1_but, starth2_but, stoph2_but, starth3_but, stoph3_but]);
+
+
+
+  function openbranchC(evt, branchName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(branchName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  noBtn([startc1_but, stopc1_but, startc2_but, stopc2_but, startc3_but, stopc3_but]);
+  
+
+
+  function openbranchG(evt, branchName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(branchName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  noBtn([startg1_but, stopg1_but, startg2_but, stopg2_but, startg3_but, stopg3_but]); 
+
+
+function openbranchN(evt, branchName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(branchName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  noBtn([startn1_but, stopn1_but, startn2_but, stopn2_but, startn3_but, stopn3_but]); 
+
+
+
+
+function openbranchO(evt, branchName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(branchName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  noBtn([starto1_but, stopo1_but, starto2_but, stopo2_but, starto3_but, stopo3_but]); 
+
+
+
+function openbranchP(evt, branchName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(branchName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  noBtn([startp1_but, stopp1_but, startp2_but, stopp2_but, startp3_but, stopp3_but]); 

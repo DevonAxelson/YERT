@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>High Plains Medication Rooming Tool</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+<h2>High Plains Medication Rooming Tool v1.2</h2>
+
+<div class="tab">
+  <button class="tablinks" onclick="openbranchL(event,'Landing')" id="home">Landing</button>
+  <button class="tablinks" onclick="openbranchH(event,'Hays')">Hays</button>
+  <button class="tablinks" onclick="openbranchC(event,'Colby')">Colby</button>
+  <button class="tablinks" onclick="openbranchG(event,'Goodland')">Goodland</button>
+  <button class="tablinks" onclick="openbranchN(event,'Norton')">Norton</button>
+  <button class="tablinks" onclick="openbranchO(event,'Osborne')">Osborne</button>
+  <button class="tablinks" onclick="openbranchP(event,'Phillipsburg')">Phillipsburg</button>
+</div>
+
+<div class="tabcontent" id="Landing">
+    <h4>Welcome to the landing page for Your Excellent Rooming Tool (YERT).</h4>
+    <P>This is where we will post any expected downtimes for the application.</P>
+    <br>
+    <P>Please contact the helpdesk if any bugs are present.</P>
+    <P>Thanks! - High Plains Information Systems Department</P>
+</div>
+
+<div id="Hays" class="tabcontent">
+    <h4 class="plainjane" id="rmh1">Room 206</h4>
+    <button id="prh1" class="selbut" onclick="prh1()">Paitent ready </button>
+    <button id="starth1" class="selbut" onclick="starth1()" >Start Service </button>
+    <button id="stoph1" class="selbut" onclick="stoph1()" >End Service </button>
+    <h4 class="plainjane" id="rmh2">Room 219</h4>
+    <button id="prh2" class="selbut" onclick="prh2()" >Paitent ready </button>
+    <button id="starth2" class="selbut" onclick="starth2()" >Start Service </button>
+    <button id="stoph2" class="selbut" onclick="stoph2()" >End Service </button>
+    <h4 class="plainjane" id="rmh3">Room 220</h4>
+    <button id="prh3" class="selbut" onclick="prh3()" >Paitent ready </button>
+    <button id="starth3" class="selbut" onclick="starth3()" >Start Service </button>
+    <button id="stoph3" class="selbut" onclick="stoph3()" >End Service </button>
+</div>
+
+<div id="Colby" class="tabcontent">
+    <h4 class="plainjane" id="rmc1">Room ###</h4>
+    <button id="prc1" class="selbut" onclick="prc1()" >Paitent ready </button>
+    <button id="startc1" class="selbut" onclick="startc1()" >Start Service </button>
+    <button id="stopc1" class="selbut" onclick="stopc1()" >End Service </button>
+    <h4 class="plainjane" id="rmc2">Room ###</h4>
+    <button id="prc2" class="selbut" onclick="prc2()" >Paitent ready </button>
+    <button id="startc2" class="selbut" onclick="startc2()" >Start Service </button>
+    <button id="stopc2" class="selbut" onclick="stopc2()" >End Service </button>
+    <h4 class="plainjane" id="rmc3">Room ###</h4>
+    <button id="prc3" class="selbut" onclick="prc3()" >Paitent ready </button>
+    <button id="startc3" class="selbut" onclick="startc3()" >Start Service </button>
+    <button id="stopc3" class="selbut" onclick="stopc3()" >End Service </button>
+</div>
+
+<div id="Goodland" class="tabcontent">
+    <h4 class="plainjane" id="rmg1">Room ###</h4>
+    <button id="prg1" class="selbut" onclick="prg1()" >Paitent ready </button>
+    <button id="startg1" class="selbut" onclick="startg1()" >Start Service </button>
+    <button id="stopg1" class="selbut" onclick="stopg1()" >End Service </button>
+    <h4 class="plainjane" id="rmg2">Room ###</h4>
+    <button id="prg2" class="selbut" onclick="prg2()" >Paitent ready </button>
+    <button id="startg2" class="selbut" onclick="startg2()" >Start Service </button>
+    <button id="stopg2" class="selbut" onclick="stophg2()" >End Service </button>
+    <h4 class="plainjane" id="rmg3">Room ###</h4>
+    <button id="prg3" class="selbut" onclick="prg3()" >Paitent ready </button>
+    <button id="startg3" class="selbut" onclick="startg3()" >Start Service </button>
+    <button id="stopg3" class="selbut" onclick="stopg3()" >End Service </button>
+</div>
+
+<div id="Norton" class="tabcontent">
+    <h4 class="plainjane" id="rmn1">Room ###</h4>
+    <button id="prn1" class="selbut" onclick="prn1()" >Paitent ready </button>
+    <button id="startn1" class="selbut" onclick="startn1()" >Start Service </button>
+    <button id="stopn1" class="selbut" onclick="stopn1()" >End Service </button>
+    <h4 class="plainjane" id="rmn2">Room ###</h4>
+    <button id="prn2" class="selbut" onclick="prn2()" >Paitent ready </button>
+    <button id="startn2" class="selbut" onclick="startn2()" >Start Service </button>
+    <button id="stopn2" class="selbut" onclick="stopn2()" >End Service </button>
+    <h4 class="plainjane" id="rmn3">Room ###</h4>
+    <button id="prn3" class="selbut" onclick="prn3()" >Paitent ready </button>
+    <button id="startn3" class="selbut" onclick="startn3()" >Start Service </button>
+    <button id="stopn3" class="selbut" onclick="stopn3()" >End Service </button>
+</div>
+
+<div id="Osborne" class="tabcontent">
+    <h4 class="plainjane" id="rmo1">Room ###</h4>
+    <button id="pro1" class="selbut" onclick="pro1()" >Paitent ready </button>
+    <button id="starto1" class="selbut" onclick="starto1()" >Start Service </button>
+    <button id="stopo1" class="selbut" onclick="stopo1()" >End Service </button>
+    <h4 class="plainjane" id="rmo2">Room ###</h4>
+    <button id="pro2" class="selbut" onclick="pro2()" >Paitent ready </button>
+    <button id="starto2" class="selbut" onclick="starto2()" >Start Service </button>
+    <button id="stopo2" class="selbut" onclick="stopo2()" >End Service </button>
+    <h4 class="plainjane" id="rmo3">Room ###</h4>
+    <button id="pro3" class="selbut" onclick="pro3()" >Paitent ready </button>
+    <button id="starto3" class="selbut" onclick="starto3()" >Start Service </button>
+    <button id="stopo3" class="selbut" onclick="stopo3()" >End Service </button>
+</div>
+
+<div id="Phillipsburg" class="tabcontent">
+    <h4 class="plainjane" id="rmp1">Room ###</h4>
+    <button id="prp1" class="selbut" onclick="prp1()" >Paitent ready </button>
+    <button id="startp1" class="selbut" onclick="startp1()" >Start Service </button>
+    <button id="stopp1" class="selbut" onclick="stopp1()" >End Service </button>
+    <h4 class="plainjane" id="rmp2">Room ###</h4>
+    <button id="prp2" class="selbut" onclick="prp2()" >Paitent ready </button>
+    <button id="startp2" class="selbut" onclick="startp2()" >Start Service </button>
+    <button id="stopp2" class="selbut" onclick="stopp2()" >End Service </button>
+    <h4 class="plainjane" id="rmp3">Room ###</h4>
+    <button id="prp3" class="selbut" onclick="prp3()" >Paitent ready </button>
+    <button id="startp3" class="selbut" onclick="startp3()" >Start Service </button>
+    <button id="stopp3" class="selbut" onclick="stopp3()" >End Service </button>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/but"></script>
+<script src="/js/tab"></script>
+
+<script>
+
+</script>
+    </body>
+ </html>
